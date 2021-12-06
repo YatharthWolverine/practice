@@ -4,7 +4,7 @@ import { Box , Flex} from "../../atoms";
 
 export const Card = ({ children }) => {
   return (
-    <Box  bg="primary.4" boxShadow="0 4px 8px 0 rgba(0,0,0,0.2) " width="25%">
+    <Box  bg="primary.4" boxShadow="0 4px 8px 0 rgba(0,0,0,0.2) " width="30%" >
       {children}
     </Box>
   
