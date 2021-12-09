@@ -7,11 +7,17 @@ import { theme } from "./styles/theme";
 // import { Heading } from "./atoms";
 // import { Card } from "./atoms/Card";
 import { Profile } from "./molecules";
+import { Grid } from "./atoms";
+
+const data = [
+  { name: "Tarun", value: "sdvsd", secondName: "Lokesh" },
+  { name: "Saurav", value: "sdvsd", secondName: "Yatharth" },
+];
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Profile name="Tarun" designation="sjhcj" />
+      <Profile data={data} />
     </ThemeProvider>
   );
 }
