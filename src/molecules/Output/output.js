@@ -8,7 +8,7 @@ export const Output = () => {
     return (
         <>
         
-            <Grid gridGap={100} gridTemplateColumns="auto auto auto "  p="10px" p="40px" mx="40px" justifyContent="center" bg="primary.3">
+            <Grid gridGap={100} gridTemplateColumns="auto auto auto "   p="40px" mx="40px" justifyContent="center" bg="primary.3">
                     <Card bg="white">
                         <img src={Img} alt="" width = "100%"  border-radius="5px"/>
                         <Box>
@@ -81,8 +81,8 @@ export const Output = () => {
 
             </Grid>
 
-            <Flex flexDirection ="row" alignItems="center" justifyContent="center" p="50px" bg="primary.5" mx="40px">
-                <Box width="35%" p="19px">
+            <Flex flexDirection ="row" alignItems="center" justifyContent="center" p="40px"  bg="primary.5" mx="40px">
+                <Box width="35%" p="15px">
                     <Card>
                         <img src={Img} alt="" width = "100%"  border-radius="5px"/>
                             <Box>
@@ -96,7 +96,7 @@ export const Output = () => {
                         </Card>
 
                 </Box>
-                <Box width="35%" p="20px" >
+                <Box width="35%" p="15px" >
                     <Card >
                         <img src={Img2} alt="" width = "100%"  border-radius="5px"/>
                             <Box>
