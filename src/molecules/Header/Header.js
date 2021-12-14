@@ -11,35 +11,35 @@ export const Header = () => {
        <img src={Img} alt="" width = "100%"  border-radius="5px"/>
        <Box>
          <h2>
-           <Profile name="John Snow"></Profile>
+           <Profile name="Flower"></Profile>
          </h2> 
          <p>
-         <Profile designation="CTO"></Profile>
+         <Profile designation="Rose"></Profile>
          </p>
          </Box>
       </Card>
       <Box m={[ 0, 1, 2 ]}  p={[ 2, 3, 4 ]}  width={[1]} alignItems="center">
         <h1>Just for Content!</h1>
         <text>
-        This is the Card for the respective designation of the post holders.
-        React embraces the fact that rendering logic is inherently coupled with other UI logic: 
-        how events are handled, how the state changes over time, and how the data is prepared for display.
-        Instead of artificially separating technologies by putting markup and logic in separate files, 
-        React separates concerns with loosely coupled units called “components” that contain both. 
-        We will come back to components in a further section, but if you’re not yet comfortable putting markup in JS, 
-        this talk might convince you otherwise.React doesn’t require using JSX, but most people find it helpful as a 
-        visual aid when working with UI inside the JavaScript code. It also allows React to show more useful error and 
-        warning messages.
+        This is the Card for the respective designation Flowers.A rose is a woody perennial flowering plant of the genus Rosa,
+         in the family Rosaceae, or the flower it bears. There are over three hundred species and tens of thousands of cultivars.
+         citation needed] They form a group of plants that can be erect shrubs, climbing, or trailing, with stems that are often armed
+          with sharp prickles. Their flowers vary in size and shape and are usually large and showy, in colours ranging 
+          from white through yellows and reds. Most species are native to Asia, with smaller numbers native to Europe, North America,
+           and northwestern Africa.[citation needed] Species, cultivars and hybrids are all widely grown for their beauty and often are
+            fragrant. Roses have acquired cultural significance in many societies. Rose plants range in size from compact, miniature roses,
+             to climbers that can reach seven meters in height. Different species hybridize easily, and this has been used
+              in the development of the wide range of garden roses.
         </text>
         </Box>
-      <Card bg="red"   > 
+      <Card bg="pink"   > 
        <img src={Img2} alt="" width = "100%" />
        <Box>
          <h2>
-           <Profile name="Erza Greyrat"></Profile>
+           <Profile name="Flower"></Profile>
          </h2> 
          <p>
-         <Profile designation="CPO"></Profile>
+         <Profile designation="Lily"></Profile>
          </p>
          </Box>
       </Card>
