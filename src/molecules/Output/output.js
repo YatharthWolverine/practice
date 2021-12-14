@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Flex, Heading, Title , Grid ,Card } from "../../atoms";
+import { Box, Flex, Grid ,Card } from "../../atoms";
 import { Profile } from "../Profile";
 import Img from "../../assets/img.png";
 import Img2 from "../../assets/img2.png";
@@ -70,24 +70,15 @@ export const Output = () => {
             
 
             <Flex  pl ="65px" pt="40px" flexDirection="row" flexWrap="wrap"  alignItems="center" bg="primary.5">
-                <Box width="30%" p="15px" py="20px">
+                <Box width="30%" p="18px" py="20px">
                     <Card >
-                        <img src={Img2} alt="" width = "100%"  border-radius="5px"/>
+                        <img src={Img} alt="" width = "100%"  border-radius="5px"/>
                         <Box>
-                            <Profile name="Erza Scarlets" designation="CEO"></Profile>
+                            <Profile name="John Snow" designation="CTO"></Profile>
                         </Box>
                     </Card>
                 </Box>
-                <Box width="30%" p="15px" py="20px">
-                    <Card >
-                        <img src={Img2} alt="" width = "100%"  border-radius="5px"/>
-                        <Box>
-                            <Profile name="Erza Scarlets" designation="CEO"></Profile>
-                        </Box>
-                    </Card>
-
-                </Box>
-                <Box width="30%" p="15px" py="20px">
+                <Box width="30%" p="30px" py="20px">
                     <Card >
                         <img src={Img2} alt="" width = "100%"  border-radius="5px"/>
                         <Box>
@@ -96,7 +87,16 @@ export const Output = () => {
                     </Card>
 
                 </Box>
-                <Box width="30%" p="15px" py="20px">
+                <Box width="30%" p="13px" py="20px">
+                    <Card >
+                        <img src={Img} alt="" width = "100%"  border-radius="5px"/>
+                            <Box>
+                                <Profile name="John Snow" designation="CTO"></Profile>
+                            </Box>
+                    </Card>
+
+                </Box>
+                <Box width="30%" p="19px" py="20px">
                     <Card >
                         <img src={Img2} alt="" width = "100%"  border-radius="5px"/>
                         <Box>
@@ -104,7 +104,16 @@ export const Output = () => {
                         </Box>
                     </Card>
                 </Box>
-                <Box width="30%" p="15px" py="20px">
+                <Box width="30%" p="25px" py="20px">
+                    <Card >
+                        <img src={Img} alt="" width = "100%"  border-radius="5px"/>
+                            <Box>
+                                <Profile name="John Snow" designation="CTO"></Profile>
+                            </Box>
+                    </Card>
+
+                </Box>
+                <Box width="30%" p="20px" py="20px">
                     <Card >
                         <img src={Img2} alt="" width = "100%"  border-radius="5px"/>
                         <Box>
@@ -113,25 +122,16 @@ export const Output = () => {
                     </Card>
 
                 </Box>
-                <Box width="30%" p="15px" py="20px">
+                <Box width="30%" p="150px" py="20px">
                     <Card >
-                        <img src={Img2} alt="" width = "100%"  border-radius="5px"/>
-                        <Box>
-                            <Profile name="Erza Scarlets" designation="CEO"></Profile>
-                        </Box>
+                        <img src={Img} alt="" width = "100%"  border-radius="5px"/>
+                            <Box>
+                                <Profile name="John Snow" designation="CTO"></Profile>
+                            </Box>
                     </Card>
 
                 </Box>
-                <Box width="30%" p="15px" py="20px">
-                    <Card >
-                        <img src={Img2} alt="" width = "100%"  border-radius="5px"/>
-                        <Box>
-                            <Profile name="Erza Scarlets" designation="CEO"></Profile>
-                        </Box>
-                    </Card>
-
-                </Box>
-                <Box width="30%" p="15px" py="20px">
+                <Box width="30%" p="50px" py="20px">
                     <Card >
                         <img src={Img2} alt="" width = "100%"  border-radius="5px"/>
                         <Box>
