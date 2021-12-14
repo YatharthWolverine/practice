@@ -8,6 +8,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <Box>
+        
        <Output/> 
       </Box>
     </ThemeProvider>

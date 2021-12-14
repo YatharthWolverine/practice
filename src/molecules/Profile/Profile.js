@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Card, Heading, Title } from "../../atoms";
+import { Header } from "../Header/Header";
 
 
 export const Profile = ({ name, designation }) => {
@@ -9,6 +10,7 @@ export const Profile = ({ name, designation }) => {
       
 
       <Title designation={designation}/>
+
     </Box>
   );
 };

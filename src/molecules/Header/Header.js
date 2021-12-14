@@ -18,9 +18,9 @@ export const Header = () => {
          </p>
          </Box>
       </Card>
-      <Box m={[ 0, 1, 2 ]}  p={[ 2, 3, 4 ]}  width={[1]} alignItems="center">
+      <Box m={[40,50,60]} p={[40,50,60]} width={[1]} alignItems="right">
         <h1>Just for Content!</h1>
-        <text>
+        <text text-align="right">
         This is the Card for the respective designation Flowers.A rose is a woody perennial flowering plant of the genus Rosa,
          in the family Rosaceae, or the flower it bears. There are over three hundred species and tens of thousands of cultivars.
          citation needed] They form a group of plants that can be erect shrubs, climbing, or trailing, with stems that are often armed
