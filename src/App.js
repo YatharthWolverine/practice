@@ -7,6 +7,7 @@ import { theme } from "./styles/theme";
 // import { Heading } from "./atoms";
 // import { Card } from "./atoms/Card";
 import { Profile } from "./molecules";
+import {Output} from "./molecules";
 import { Grid } from "./atoms";
 
 const data = [
@@ -17,7 +18,8 @@ const data = [
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Profile data={data} />
+      {/* <Profile data={data} /> */}
+      <Output/>
     </ThemeProvider>
   );
 }

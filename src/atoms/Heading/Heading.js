@@ -7,3 +7,4 @@ const Text = styled.div`
 export const Heading = ({ name }) => {
   return <Text>{name}</Text>;
 };
+export default Heading;

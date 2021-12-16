@@ -8,3 +8,4 @@ const Text = styled.div`
 export const Title = ({ designation }) => {
   return <Text p="2rem">{designation}</Text>;
 };
+export default Title;
