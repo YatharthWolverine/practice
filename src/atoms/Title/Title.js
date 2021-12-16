@@ -7,14 +7,17 @@ const Text = styled.p`
   
 `;
 export const Title = styled.p`
-font-size: 10px;
-font-weight: 700;
+font-size: 72.5%;
+font-weight: 500;
 background: linear-gradient(#fe3265, #ffc774);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 -moz-background-clip: text;
 -moz-text-fill-color: transparent;
-padding:40px;
-font-family:AxiformaMedium;git
+paddingBottom:20px;
+paddingTop:100vh;
+marginTop:50vh;
+font-family:apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+margin-left:8rem;
 
 `;

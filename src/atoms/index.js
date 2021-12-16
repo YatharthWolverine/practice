@@ -4,3 +4,6 @@ export * from "./Box";
 export * from "./Grid";
 export * from "./Flex";
 export * from "./Card";
+export * from "./Mainheading";
+export * from "./Mainheading2";
+export * from "./Mainheading3";
