@@ -6,9 +6,8 @@ export const Profile = ({ data }) => {
     <Box>
       <Grid gridAutoFlow="column" justifyContent="space-between" gridGap="3rem" alignItems="center">
         {data.map((obj) => {
-          console.log("find data", data, "find Obj", obj);
           return (
-            <Card>
+            <Card key={obj.id} borderRadius="40px" m="50px">
               <Grid
                 gridAutoFlow={{ xs: "row", lg: "column" }}
                 justifyContent="space-between"
@@ -31,6 +30,17 @@ export const Profile = ({ data }) => {
           );
         })}
       </Grid>
+      <Card m="30px">
+        <Grid
+          gridAutoFlow={{ xs: "row", lg: "column" }}
+          justifyContent="space-between"
+          gridGap="3rem"
+          alignItems="center"
+        >
+          <Heading name="sdcjhsdjhc" />
+          <Title designation="sdkcdsk" />
+        </Grid>
+      </Card>
     </Box>
   );
 };
